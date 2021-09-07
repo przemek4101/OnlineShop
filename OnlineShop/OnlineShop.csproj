@@ -73,75 +73,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminForm.cs">
+    <Compile Include="OnlineShopUI\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForm.Designer.cs">
+    <Compile Include="OnlineShopUI\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DataAccess\IDataConnection.cs" />
     <Compile Include="DataAccess\TextConnector.cs" />
     <Compile Include="DataAccess\TextConnectorProcessor.cs" />
     <Compile Include="GlobalConfig.cs" />
-    <Compile Include="HomeForm.cs">
+    <Compile Include="OnlineShopUI\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomeForm.Designer.cs">
+    <Compile Include="OnlineShopUI\HomeForm.Designer.cs">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ICategoryRequester.cs" />
     <Compile Include="IServiceList.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
-    <Compile Include="NewCategoryForm.cs">
+    <Compile Include="OnlineShopUI\NewCategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewCategoryForm.Designer.cs">
+    <Compile Include="OnlineShopUI\NewCategoryForm.Designer.cs">
       <DependentUpon>NewCategoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ShopingCartForm.cs">
+    <Compile Include="OnlineShopUI\ShopingCartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShopingCartForm.Designer.cs">
+    <Compile Include="OnlineShopUI\ShopingCartForm.Designer.cs">
       <DependentUpon>ShopingCartForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\UserModel.cs" />
-    <Compile Include="WelcomeForm.cs">
+    <Compile Include="OnlineShopUI\WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomeForm.Designer.cs">
+    <Compile Include="OnlineShopUI\WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="OnlineShopUI\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="OnlineShopUI\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegisterForm.cs">
+    <Compile Include="OnlineShopUI\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterForm.Designer.cs">
+    <Compile Include="OnlineShopUI\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdminForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewCategoryForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\NewCategoryForm.resx">
       <DependentUpon>NewCategoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ShopingCartForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\ShopingCartForm.resx">
       <DependentUpon>ShopingCartForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomeForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -154,7 +154,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RegisterForm.resx">
+    <EmbeddedResource Include="OnlineShopUI\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
