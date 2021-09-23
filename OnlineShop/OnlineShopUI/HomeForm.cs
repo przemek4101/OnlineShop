@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OnlineShop.Models;
 
+
 namespace OnlineShop
 {
     public partial class HomeForm : Form,IServiceList
@@ -37,11 +38,6 @@ namespace OnlineShop
             homeFormSortBycomboBox.DataSource = sortCategories;
 
 
-
-        }
-
-        private void homeFormCurrentlyLoggedLabel_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -142,10 +138,7 @@ namespace OnlineShop
 
         private void SearchInList()
         {
-            if(homeFormSearchValue.Text == "")
-            {
-                availableProducts = GlobalConfig.Connection.GetProducts();
-            }
+            availableProducts = GlobalConfig.Connection.GetProducts();
             availableProducts = (List<ProductModel>)availableProducts.Where(x => x.Name.Contains(homeFormSearchValue.Text.ToString())).ToList();
             WireUpLists();
         }
@@ -243,10 +236,6 @@ namespace OnlineShop
             SortListBy();
         }
 
-        private void homeFormSearchButton_Click(object sender, EventArgs e)
-        {
-            SearchInList();
-        }
 
         private void homeFormLogoutButton_Click(object sender, EventArgs e)
         {
@@ -254,5 +243,11 @@ namespace OnlineShop
             frm.Show();
             this.Close();
         }
+
+        private void homeFormSearchButton_Click(object sender, EventArgs e)
+        {
+            SearchInList();
+        }
+
     }
 }

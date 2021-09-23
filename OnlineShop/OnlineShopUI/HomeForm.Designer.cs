@@ -79,6 +79,7 @@ namespace OnlineShop
             this.homeFormSearchValue.Name = "homeFormSearchValue";
             this.homeFormSearchValue.Size = new System.Drawing.Size(400, 45);
             this.homeFormSearchValue.TabIndex = 29;
+       
             // 
             // homeFormCurrentlyLoggedLabel
             // 
@@ -90,7 +91,6 @@ namespace OnlineShop
             this.homeFormCurrentlyLoggedLabel.Size = new System.Drawing.Size(152, 30);
             this.homeFormCurrentlyLoggedLabel.TabIndex = 34;
             this.homeFormCurrentlyLoggedLabel.Text = "RandomLogin";
-            this.homeFormCurrentlyLoggedLabel.Click += new System.EventHandler(this.homeFormCurrentlyLoggedLabel_Click);
             // 
             // homeFormProductsNameListBox
             // 
@@ -252,6 +252,7 @@ namespace OnlineShop
             this.homeFormSearchButton.Size = new System.Drawing.Size(51, 46);
             this.homeFormSearchButton.TabIndex = 30;
             this.homeFormSearchButton.UseVisualStyleBackColor = true;
+            this.homeFormSearchButton.Click += new System.EventHandler(this.homeFormSearchButton_Click);
             // 
             // adminFormAdminOptionsLink
             // 

@@ -47,7 +47,7 @@ namespace OnlineShop
 
         public void WireUpLists()
         {
-            selectedProductList = GlobalConfig.Connection.GetSelectedProducts();
+            
             ShopingCartFormCostListBox.DataSource = null;
             ShopingCartFormCostListBox.DataSource = selectedProductList;
             ShopingCartFormCostListBox.DisplayMember = "Name";
